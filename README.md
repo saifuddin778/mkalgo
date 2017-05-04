@@ -27,7 +27,7 @@ This implementation contains both MK-Early Abandoning and standard MK algorithm 
 ```
 
 * `l` refers to the desired length of motif pairs to be found
-* `metric` refers to the distance metric to be utilized, which can be 'euclidean' or 'dtw' (dynamic time warping).
+* `metric` refers to the distance metric to be utilized, which can be `euclidean` or `dtw` (dynamic time warping).
 
 
 The returned object is a dictionary, containing the respective motif and its beginning and ending indices in the given timeseries.
