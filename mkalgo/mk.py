@@ -4,6 +4,7 @@ import numpy
 from mkalgo.utilities import utils
 from mkalgo.utilities import funcs
 
+xrange = range 
 
 class base(object):
     def __init__(self, l, metric, r=None):
