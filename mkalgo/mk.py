@@ -1,10 +1,8 @@
 import random
 import numpy
 
-from utilities import (
-    utils,
-    funcs
-)
+from mkalgo.utilities import utils
+from mkalgo.utilities import funcs
 
 
 class base(object):
