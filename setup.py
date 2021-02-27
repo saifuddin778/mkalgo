@@ -15,7 +15,7 @@ tests_require = []
 
 setup(
     name='mkalgo',
-    version='0.1',
+    version='0.2',
     url='https://github.com/saifuddin778/mkalgo/',
     include_package_data=True,
     description='mkalgo',

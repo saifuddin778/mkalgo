@@ -4,6 +4,8 @@ This package provides Pythonic (>=2.6) implementation of Mueen-Keogh (MK) algori
 ### Citation
 _Mueen, A., Keogh, E., Zhu, Q., Cash, S. and Westover, B. Exact Discovery of Time Series Motif. SDM 2009_ ([link](http://alumni.cs.ucr.edu/~mueen/pdf/EM.pdf)).
 
+![](https://i.imgur.com/MfbxULV.png)
+
 ### Explanation
 This algorithm aims to find significant pairs of motifs (identical subsequences in a time-series which repeat more than once) in a given time-series. The usual bruteforce methods of finding these motifis are usually O(n^2) in terms of their complexity, while MK Algorithm aims to find them in O(n * log(n)) order.
 
