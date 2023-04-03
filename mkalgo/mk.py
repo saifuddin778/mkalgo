@@ -35,6 +35,11 @@ class base(object):
         for i in range(0, lts, self.l):
             splits.append([i, i+self.l])
             m += 1
+          
+        if m * self.l > lts:
+            splits = splits[:m-1]
+            m = m -1
+            
         return splits, m
 
 
